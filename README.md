@@ -46,5 +46,6 @@ This project is a retail data warehouse built using SQL Server for data storage 
    - Run the provided Python notebook (prepare_load_to_staging.ipynb) to process the data and load it into the staging area.
 
 3- **Run ETL Process**:
+   - Replace the file name in the flat file connection by your path to data, and Ensure that all connections in Connection Managers work.
    - Execute the SSIS package (ETL_Package.dtsx) to perform the ETL workflow.
 
